@@ -1,5 +1,7 @@
 # 🗄️ Arquivamento automático de arquivos antigos do SharePoint (Power Automate)
 
+[![Testes](https://github.com/rafacampanha/power-automate-arquivamento-sharepoint/actions/workflows/testes.yml/badge.svg)](https://github.com/rafacampanha/power-automate-arquivamento-sharepoint/actions/workflows/testes.yml)
+
 Fluxo do **Power Automate** que encontra arquivos de bibliotecas do SharePoint **sem modificação há mais de 5 anos** e os move para um local de arquivo morto no **OneDrive**, liberando espaço e organizando o acervo, com log de tudo o que foi movido.
 
 > Versão genérica e documentada de um fluxo que construí no trabalho. Nomes de sites, bibliotecas e contas são fictícios.
