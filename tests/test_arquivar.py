@@ -4,7 +4,7 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "simulador"))
-from arquivar import encontrar, executar  # noqa: E402
+from arquivar import encontrar, executar
 
 
 def _criar(p: Path, quando: datetime):
